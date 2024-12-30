@@ -69,3 +69,71 @@ Get help: [Post in our discussion board](https://github.com/orgs/skills/discussi
 &copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
 </footer>
+{
+  "mappings": {
+    "shcm/shsupercm/fabric/citresewn/mixin/AtlasLoaderMixin": {
+      "of": "Lnet/minecraft/class_7947;method_47668(Lnet/minecraft/class_3300;Lnet/minecraft/class_2960;)Lnet/minecraft/class_7947;"
+    },
+    "shcm/shsupercm/fabric/citresewn/mixin/AtlasPreparationMixin": {
+      "getSprite": "Lnet/minecraft/class_4724$class_7774;method_45869(Lnet/minecraft/class_2960;)Lnet/minecraft/class_1058;"
+    },
+    "shcm/shsupercm/fabric/citresewn/mixin/ChatScreenMixin": {
+      "Lnet/minecraft/client/MinecraftClient;setScreen(Lnet/minecraft/client/gui/screen/Screen;)V": "Lnet/minecraft/class_310;method_1507(Lnet/minecraft/class_437;)V",
+      "keyPressed": "Lnet/minecraft/class_408;method_25404(III)Z"
+    },
+    "shcm/shsupercm/fabric/citresewn/mixin/ModelLoaderMixin": {
+      "<init>": "Lnet/minecraft/class_1088;<init>(Lnet/minecraft/class_324;Lnet/minecraft/class_3695;Ljava/util/Map;Ljava/util/Map;)V",
+      "Lnet/minecraft/util/profiler/Profiler;push(Ljava/lang/String;)V": "Lnet/minecraft/class_3695;method_15396(Ljava/lang/String;)V"
+    },
+    "shcm/shsupercm/fabric/citresewn/mixin/ResourceFinderMixin": {
+      "toResourcePath": "Lnet/minecraft/class_7654;method_45112(Lnet/minecraft/class_2960;)Lnet/minecraft/class_2960;"
+    },
+    "shcm/shsupercm/fabric/citresewn/mixin/broken_paths/AbstractFileResourcePackMixin": {
+      "parseMetadata(Lnet/minecraft/resource/metadata/ResourceMetadataReader;)Ljava/lang/Object;": "Lnet/minecraft/class_3255;method_14407(Lnet/minecraft/class_3270;)Ljava/lang/Object;"
+    },
+    "shcm/shsupercm/fabric/citresewn/mixin/broken_paths/IdentifierMixin": {
+      "isPathValid": "Lnet/minecraft/class_2960;method_20208(Ljava/lang/String;)Z"
+    },
+    "shcm/shsupercm/fabric/citresewn/mixin/broken_paths/ReloadableResourceManagerImplMixin": {
+      "reload": "Lnet/minecraft/class_3304;method_18232(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;Ljava/util/List;)Lnet/minecraft/class_4011;"
+    },
+    "shcm/shsupercm/fabric/citresewn/mixin/broken_paths/ResourcePackCompatibilityMixin": {
+      "<init>": "<init>",
+      "from": "Lnet/minecraft/class_3281;method_14436(Lnet/minecraft/class_6497;I)Lnet/minecraft/class_3281;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "shcm/shsupercm/fabric/citresewn/mixin/AtlasLoaderMixin": {
+        "of": "Lnet/minecraft/class_7947;method_47668(Lnet/minecraft/class_3300;Lnet/minecraft/class_2960;)Lnet/minecraft/class_7947;"
+      },
+      "shcm/shsupercm/fabric/citresewn/mixin/AtlasPreparationMixin": {
+        "getSprite": "Lnet/minecraft/class_4724$class_7774;method_45869(Lnet/minecraft/class_2960;)Lnet/minecraft/class_1058;"
+      },
+      "shcm/shsupercm/fabric/citresewn/mixin/ChatScreenMixin": {
+        "Lnet/minecraft/client/MinecraftClient;setScreen(Lnet/minecraft/client/gui/screen/Screen;)V": "Lnet/minecraft/class_310;method_1507(Lnet/minecraft/class_437;)V",
+        "keyPressed": "Lnet/minecraft/class_408;method_25404(III)Z"
+      },
+      "shcm/shsupercm/fabric/citresewn/mixin/ModelLoaderMixin": {
+        "<init>": "Lnet/minecraft/class_1088;<init>(Lnet/minecraft/class_324;Lnet/minecraft/class_3695;Ljava/util/Map;Ljava/util/Map;)V",
+        "Lnet/minecraft/util/profiler/Profiler;push(Ljava/lang/String;)V": "Lnet/minecraft/class_3695;method_15396(Ljava/lang/String;)V"
+      },
+      "shcm/shsupercm/fabric/citresewn/mixin/ResourceFinderMixin": {
+        "toResourcePath": "Lnet/minecraft/class_7654;method_45112(Lnet/minecraft/class_2960;)Lnet/minecraft/class_2960;"
+      },
+      "shcm/shsupercm/fabric/citresewn/mixin/broken_paths/AbstractFileResourcePackMixin": {
+        "parseMetadata(Lnet/minecraft/resource/metadata/ResourceMetadataReader;)Ljava/lang/Object;": "Lnet/minecraft/class_3255;method_14407(Lnet/minecraft/class_3270;)Ljava/lang/Object;"
+      },
+      "shcm/shsupercm/fabric/citresewn/mixin/broken_paths/IdentifierMixin": {
+        "isPathValid": "Lnet/minecraft/class_2960;method_20208(Ljava/lang/String;)Z"
+      },
+      "shcm/shsupercm/fabric/citresewn/mixin/broken_paths/ReloadableResourceManagerImplMixin": {
+        "reload": "Lnet/minecraft/class_3304;method_18232(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;Ljava/util/List;)Lnet/minecraft/class_4011;"
+      },
+      "shcm/shsupercm/fabric/citresewn/mixin/broken_paths/ResourcePackCompatibilityMixin": {
+        "<init>": "<init>",
+        "from": "Lnet/minecraft/class_3281;method_14436(Lnet/minecraft/class_6497;I)Lnet/minecraft/class_3281;"
+      }
+    }
+  }
+}
